@@ -7,7 +7,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style: none;
     font-size: 140%;
-
+    background-color: skyblue;
+    background-clip: border-box;
 
 }
 
@@ -21,6 +22,7 @@ nav {
     display: flex;
     background-color: pink;
     width: 100%;
+    border-radius: 20px;
 }
 
 nav ul {
@@ -50,11 +52,15 @@ h1 {
 .menu li:hover {
     background-color: lightskyblue;
     color: darkcyan;
-    padding: 0;
+    padding: 10px;
+    border-radius: 20px;
+
 }
 
 figure {
     display: flex;
-    width: 50%;
+    width: 25%;
     height: auto;
+    margin: 0 auto;
+
 }
