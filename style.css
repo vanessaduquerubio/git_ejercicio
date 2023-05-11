@@ -6,6 +6,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style: none;
+    font-size: 140%;
+
 
 }
 
@@ -28,7 +30,7 @@ nav ul {
 nav ul li {
     display: inline;
     padding: 20px;
-    font-size: 140%;
+    font-size: 120%;
     transition: 2s;
 }
 
@@ -38,6 +40,7 @@ a {
 }
 
 h1 {
+    padding: 20px;
     margin: 20px;
     margin: 0 auto;
     text-align: center;
